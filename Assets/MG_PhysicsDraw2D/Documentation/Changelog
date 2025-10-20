@@ -1,0 +1,17 @@
+v5.1.1
+- added BringPointerToTouchPoint method to the Pointer script
+- added RigdBody reference in Pointer script
+- bugfix: fixed pointer position getting stuck on colliders in mobile builds
+
+v5.1
+- added noStopDrawingLayers layermask to the Drawing Manager setup
+- bugfix: fixed new layer "CurrentDrawing" not being set
+- bugfix: fixed Drawing Manager null when resetting scene if lifeTime > 0
+
+v5.0
+- Upgraded from "2D Physics Draw with Collider"
+- Improved code, better performance, easier to customize
+- Added list of drawings
+- More precise collider (with optimization variable for performance adjustments)
+- Added Events Manager
+- Added total and per drawing length limit

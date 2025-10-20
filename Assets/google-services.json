@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "804346689757",
+    "project_id": "linko-journey",
+    "storage_bucket": "linko-journey.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:804346689757:android:f2c3169458f3f0dbf84334",
+        "android_client_info": {
+          "package_name": "com.Sanok.LinkoJourney"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDnW17WjiA-WyDrbA1TaUXZG7lV8DN4AYM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

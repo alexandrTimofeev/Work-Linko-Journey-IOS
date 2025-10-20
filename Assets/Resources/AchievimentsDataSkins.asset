@@ -1,0 +1,98 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da7dc7510d721b0488c13e58c4157800, type: 3}
+  m_Name: AchievimentsDataSkins
+  m_EditorClassIdentifier: Assembly-CSharp::AchievimentsData
+  allAchiviements:
+  - Info:
+      ID: none
+      Title: Level0Stars
+      InfoTxt: Standart skin
+      spriteYes: {fileID: 2151668005165767097, guid: e0fbedcf33fcbd240be6374df91df20a, type: 3}
+      spriteNo: {fileID: 2151668005165767097, guid: 7fcd95d134695304887b19ba856e3685, type: 3}
+    achievementBehaviour:
+      rid: -2
+  - Info:
+      ID: Level2Stars
+      Title: Level2Stars
+      InfoTxt: Complete level 3 with 3 stars
+      spriteYes: {fileID: 7610967351693621644, guid: e0fbedcf33fcbd240be6374df91df20a, type: 3}
+      spriteNo: {fileID: 7610967351693621644, guid: 7fcd95d134695304887b19ba856e3685, type: 3}
+    achievementBehaviour:
+      rid: 5042413565650665561
+  - Info:
+      ID: Level3Stars
+      Title: Level3Stars
+      InfoTxt: Complete level 4 with 3 stars
+      spriteYes: {fileID: -3375775509590792507, guid: e0fbedcf33fcbd240be6374df91df20a, type: 3}
+      spriteNo: {fileID: -3375775509590792507, guid: 7fcd95d134695304887b19ba856e3685, type: 3}
+    achievementBehaviour:
+      rid: 5042413565650665556
+  - Info:
+      ID: Level4Stars
+      Title: Level4Stars
+      InfoTxt: Complete level 5 with 3 stars
+      spriteYes: {fileID: -4061424941402220892, guid: e0fbedcf33fcbd240be6374df91df20a, type: 3}
+      spriteNo: {fileID: -4061424941402220892, guid: 7fcd95d134695304887b19ba856e3685, type: 3}
+    achievementBehaviour:
+      rid: 5042413565650665557
+  - Info:
+      ID: Level5Stars
+      Title: Level5Stars
+      InfoTxt: Complete level 6 with 3 stars
+      spriteYes: {fileID: 5184845057194734806, guid: e0fbedcf33fcbd240be6374df91df20a, type: 3}
+      spriteNo: {fileID: 5184845057194734806, guid: 7fcd95d134695304887b19ba856e3685, type: 3}
+    achievementBehaviour:
+      rid: 5042413565650665558
+  - Info:
+      ID: Level6Stars
+      Title: Level6Stars
+      InfoTxt: Complete level 7 with 3 stars
+      spriteYes: {fileID: -656887363559615023, guid: e0fbedcf33fcbd240be6374df91df20a, type: 3}
+      spriteNo: {fileID: -656887363559615023, guid: 7fcd95d134695304887b19ba856e3685, type: 3}
+    achievementBehaviour:
+      rid: 5042413565650665559
+  references:
+    version: 2
+    RefIds:
+    - rid: -2
+      type: {class: , ns: , asm: }
+    - rid: 5042413565650665556
+      type: {class: SimpleAchievementBehaviour, ns: , asm: Assembly-CSharp}
+      data:
+        IDBehaviour: Level3Stars
+        ProgressType: 0
+        EndValue: 0
+    - rid: 5042413565650665557
+      type: {class: SimpleAchievementBehaviour, ns: , asm: Assembly-CSharp}
+      data:
+        IDBehaviour: Level4Stars
+        ProgressType: 0
+        EndValue: 0
+    - rid: 5042413565650665558
+      type: {class: SimpleAchievementBehaviour, ns: , asm: Assembly-CSharp}
+      data:
+        IDBehaviour: Level5Stars
+        ProgressType: 0
+        EndValue: 0
+    - rid: 5042413565650665559
+      type: {class: SimpleAchievementBehaviour, ns: , asm: Assembly-CSharp}
+      data:
+        IDBehaviour: Level6Stars
+        ProgressType: 0
+        EndValue: 0
+    - rid: 5042413565650665561
+      type: {class: SimpleAchievementBehaviour, ns: , asm: Assembly-CSharp}
+      data:
+        IDBehaviour: Level2Stars
+        ProgressType: 0
+        EndValue: 0

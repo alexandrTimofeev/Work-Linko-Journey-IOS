@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 0
+    path: Assets/!My/LinkoJourney/Scenes/Loading.unity
+    guid: 537e25a56b4af3543a480be3acb2dbef
+  - enabled: 0
+    path: Assets/!My/LinkoJourney/Scenes/NotifictionAndView.unity
+    guid: 4733ba4f07e920941b6dddca2499931d
+  - enabled: 1
+    path: Assets/!My/LinkoJourney/Scenes/LevelSelect.unity
+    guid: efe695f41027b664a9922ec5e0d39c9c
+  - enabled: 1
+    path: Assets/!My/LinkoJourney/Scenes/Game.unity
+    guid: 9fbd8ecace4bb0042a005d41864f0b10
+  m_configObjects:
+    com.unity.adaptiveperformance.google.android.provider_settings: {fileID: 11400000, guid: 866897dcbd75fb44fb6cf0bbd86e39d3, type: 2}
+    com.unity.adaptiveperformance.loader_settings: {fileID: 11400000, guid: f3d83fe5106adbd499db092101a49239, type: 2}
+    com.unity.adaptiveperformance.samsung.android.provider_settings: {fileID: 11400000, guid: 5d25edbe302be2f4b883c85ee8a6934f, type: 2}
+    com.unity.adaptiveperformance.simulator.provider_settings: {fileID: 11400000, guid: f5173110693bd1f46b083f749da17143, type: 2}
+  m_UseUCBPForAssetBundles: 0
