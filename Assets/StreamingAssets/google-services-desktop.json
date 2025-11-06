@@ -1,0 +1,31 @@
+{
+  "project_info": {
+    "project_number": "367984513523",
+    "project_id": "animal-rolling",
+    "storage_bucket": "animal-rolling.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:367984513523:ios:d393bd59420f63d100c286",
+        "android_client_info": {
+          "package_name": "com.snk.animals-rolling"
+        }
+      },
+      "api_key": [
+        {
+          "current_key": "AIzaSyCwcIHpT1iVj6cvPEx2HXH5rm47jSJaclE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 0
+        },
+        "appinvite_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

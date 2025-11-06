@@ -4,9 +4,10 @@ using UnityEngine.Events;
 public class OrientationDetector : MonoBehaviour
 {
     [Header("Events")]
+    public UnityEvent<bool> onAnyPortrait;
     public UnityEvent onPortrait;
     public UnityEvent onPortraitUpsideDown;
-    public UnityEvent onLandscape;
+    public UnityEvent<bool> onLandscape;
     public UnityEvent onLandscapeLeft;
     public UnityEvent onLandscapeRight;
 
@@ -32,18 +33,24 @@ public class OrientationDetector : MonoBehaviour
         switch (orientation)
         {
             case ScreenOrientation.Portrait:
-                onPortrait.Invoke();
+                onPortrait?.Invoke();
+                onAnyPortrait?.Invoke(true);
+                onLandscape?.Invoke(false);
                 break;
             case ScreenOrientation.LandscapeLeft:
-                onLandscape.Invoke();
-                onLandscapeLeft.Invoke();
+                onLandscape?.Invoke(true);
+                onLandscapeLeft?.Invoke();
+                onAnyPortrait?.Invoke(false);
                 break;
             case ScreenOrientation.LandscapeRight:
-                onLandscape.Invoke();
-                onLandscapeRight.Invoke();
+                onLandscape?.Invoke(true);
+                onLandscapeRight?.Invoke();
+                onAnyPortrait?.Invoke(false);
                 break;
             case ScreenOrientation.PortraitUpsideDown:
-                onPortraitUpsideDown.Invoke();
+                onPortraitUpsideDown?.Invoke();
+                onAnyPortrait?.Invoke(true);
+                onLandscape?.Invoke(false);
                 break;
             default:
                 break;

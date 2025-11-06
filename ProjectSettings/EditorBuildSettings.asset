@@ -5,12 +5,9 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
+  - enabled: 1
     path: Assets/!My/LinkoJourney/Scenes/Loading.unity
     guid: 537e25a56b4af3543a480be3acb2dbef
-  - enabled: 0
-    path: Assets/!My/LinkoJourney/Scenes/NotifictionAndView.unity
-    guid: 4733ba4f07e920941b6dddca2499931d
   - enabled: 1
     path: Assets/!My/LinkoJourney/Scenes/LevelSelect.unity
     guid: efe695f41027b664a9922ec5e0d39c9c
